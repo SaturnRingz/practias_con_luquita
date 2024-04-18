@@ -26,7 +26,7 @@ for (let i = 0; i < valor - 1; i++) {
   array.push(a);
 }
 
-console.log(`fibo<${valor}>`,array.join(' '));
+console.log(`fibo<${valor}>: `,array.join(' '));
 
 
 // Partiendo del ejercicio Fibonacci, copiarlo en otra carpeta llamada Fibo2 y a partir de eso realizar las modificaciones necesarias para soportar las siguientes opciones:
