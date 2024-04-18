@@ -61,8 +61,8 @@ switch (orientacion) {
       array.forEach((i) => console.log(i));
     } else {
       if (direccion === "i") {
-        for (let i = valor; i >= 0; i--) {
-          console.log(array[i]);
+        for (let i = valor; i > 0; i--) {
+          console.log(array[i-1]);
         }
       }
     }
