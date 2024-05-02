@@ -2,15 +2,15 @@
 export class Impresora{
     imprimir(array:number[], orientacion:string, valor: number){
         let array2=[]
-        let fibo=`fibo <${valor}>: `
+        let fibo=`fibo <${valor}>:`
         switch (orientacion) {
             case "hd":
             fibo+= array.join(" ");
             break;
 
             case "vd":
-            array.forEach((i) => fibo+=array[i]);
-            break;
+                array.forEach((i) => fibo+=`\n${i}`);
+                break;
 
             case "vi":
             for (let i = valor; i > 0; i--) {

@@ -6,7 +6,7 @@ describe('Test de impresora', () => {
       const impresora = new Impresora();
       let impresion;
       impresion=impresora.imprimir([0,1,1,2,3,5,8,13], "hd", 8);
-      expect(impresion).toEqual(`fibo <8>: 0 1 1 2 3 5 8 13`)
+      expect(impresion).toEqual(`fibo <8>:0 1 1 2 3 5 8 13`)
     });
 
     it('Impresion vertical directa', async () => {
